@@ -1,0 +1,12 @@
+.teacher-info img{
+    width: 56px;
+    height: 56px;
+}
+.teacher-info{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    padding: 35px;
+}

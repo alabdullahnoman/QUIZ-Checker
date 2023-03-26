@@ -1,0 +1,70 @@
+.brand-title img{
+
+    width: 41px;
+    height: 51px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F3F1FF;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+.brand-title{
+    font-size: 1.5rem;
+    margin: .5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.navbar-link ul{
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar-link li{
+
+    list-style: none;
+}
+.navbar-link li a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+    font-size: 1.2rem;
+}
+.navbar-link li:hover{
+
+    background-color: #555;
+}
+.nav-btn{
+
+padding: 5px;
+cursor: pointer;
+border: none;
+outline: none;
+display: none;
+opacity: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .brand-title img{
+
+        display: none;
+    }
+    .brand-title{
+
+        display: none;
+    }
+    .navbar{
+        width: 100%;
+    }
+    
+}

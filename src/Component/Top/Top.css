@@ -1,0 +1,37 @@
+.container{
+    width: 1070px;
+    background-color: white;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+.teacher-title{
+
+    color: #562EFF;
+}
+.teacher-container{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+@media only screen and (max-width: 1024px) {
+
+    .teacher-container{
+
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .container{
+
+        width: 370px;
+    }
+    .teacher-info {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+       
+        
+    }
+    
+}

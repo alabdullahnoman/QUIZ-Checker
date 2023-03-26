@@ -1,0 +1,33 @@
+[
+    {
+        "img":"players/player-1.png",
+        "name":"Jhon Smith",
+        "id":1
+
+    },
+    {
+        "img":"players/player-2.png",
+        "name":"Pro Rasel",
+        "id":2
+    },
+    {
+        "img":"players/player-3.png",
+        "name":"Abu Sufian",
+        "id":3
+    },
+    {
+        "img":"players/player-4.png",
+        "name":"Shajedul Karim",
+        "id":4
+    },
+    {
+        "img":"players/player-5.png",
+        "name":"Maruf Ahmed",
+        "id":5
+    },
+    {
+        "img":"players/player-6.png",
+        "name":"Mujahid",
+        "id":6
+    }
+]

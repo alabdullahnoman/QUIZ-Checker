@@ -1,0 +1,13 @@
+.blog-body{
+
+    margin: 15px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px rgb(236, 234, 234);
+}
+.blog-content{
+
+    padding-left: 10px;
+}
+
